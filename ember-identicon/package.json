@@ -87,6 +87,8 @@
     "version": 2,
     "type": "addon",
     "main": "addon-main.cjs",
-    "app-js": {}
+    "app-js": {
+      "./components/identicon/index.js": "./dist/_app_/components/identicon/index.js"
+    }
   }
 }
